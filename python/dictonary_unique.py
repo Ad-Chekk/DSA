@@ -8,7 +8,7 @@ dicto = {}   # dictonary
 for i in range(0,len(list_inp)):
         num=list_inp[i]
         dicto[num]=dicto.get(num, 0) + 1   ##add key,value  dicto[key]=dicto.get(key, value) + 1 
-        get function check for value and if it dosent exist then it sets it to zero
+        #get function check for value and if it dosent exist then it sets it to zero
  
 
 # del dicto['key_name']     #to delete a key and value
